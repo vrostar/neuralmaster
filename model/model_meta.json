@@ -1,0 +1,31 @@
+{
+  "inputUnits": [
+    3
+  ],
+  "outputUnits": 1,
+  "inputs": {
+    "houseArea": {
+      "dtype": "number",
+      "min": 80,
+      "max": 250
+    },
+    "gardenSize": {
+      "dtype": "number",
+      "min": 13,
+      "max": 1111
+    },
+    "Buildyear": {
+      "dtype": "number",
+      "min": 1970,
+      "max": 2010
+    }
+  },
+  "outputs": {
+    "retailvalue": {
+      "dtype": "number",
+      "min": 107000,
+      "max": 422000
+    }
+  },
+  "isNormalized": true
+}

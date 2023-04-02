@@ -1,0 +1,69 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    background-image: url("https://cdn.discordapp.com/attachments/947669778590470167/1092166507754160230/Z.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: lightpink;
+    overflow: hidden;
+    /* centered column with flex */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    background-color: lightpink;
+}
+
+h1 {
+    background-color: lightpink;
+}
+
+button {
+    background-color: #78a12a;
+    border: 1px solid #492f1b;
+    color: white;
+    padding: 8px 12px;
+    margin: 4px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a9f60e;
+    color: white;
+}
+
+h2, h3, h4 {
+    margin-top: 0;
+}
+
+div {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+}
+
+#chart {
+    overflow: scroll;
+    padding:20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+table, tr, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+}
